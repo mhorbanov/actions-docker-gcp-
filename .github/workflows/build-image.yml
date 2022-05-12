@@ -29,8 +29,8 @@ env:
 jobs:
   setup-build-publish-deploy:
     name: Setup, Build and Push
-      #runs-on: ubuntu-latest
-    runs-on: [self-hosted, linux, external-k8s]
+    runs-on: ubuntu-latest
+      #runs-on: [self-hosted, linux, external-k8s]
     environment: production
 
     permissions:
